@@ -1,9 +1,5 @@
 const connecion = require('../config/connection.js');
 
-// selectAll
-// insertOne
-// updateOne
-
 // Helper function for SQL syntax
 function printQuestionMarks(num) {
     var arr = [];
