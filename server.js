@@ -6,6 +6,8 @@ const app = express();
 
 // Static cntent
 
+app.use(express.static('public'));
+
 app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
 
@@ -17,7 +19,7 @@ app.engine('handlebars', exphbs({
     app.set('view engine', 'handlebars');
 
 // import routes and give server access
-const routes = require('./controllers/burgers_controller');
+const routes = require('./controllers/burgers_controller.js');
 
 app.use(routes);
 
