@@ -1,7 +1,7 @@
-const orm = require('..config/orm.js');
+const orm = require('../config/orm.js');
 
 // call all ORM functions using specific input for the ORM
-let burger = {
+var burger = {
     all: function(cb) {
         orm.all('burgers', function(res) {
             cb(res);
@@ -20,8 +20,8 @@ let burger = {
         })
     },
     // delete
-    delete: function(objColVals, condition, cb) {
-        orm.update('burgers', objColVals, condition, function(res) {
+    delete: function(condition, cb) {
+        orm.update('burgers', condition, function(res) {
             cb(res);
         });
     }
