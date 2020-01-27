@@ -20,6 +20,7 @@ Simply devour any burgers that remain, or you can add your own burger. After you
 
 ## Libraries
 * Materialize
+* jQuery
 
 ## Other Tools
 * Google Fonts

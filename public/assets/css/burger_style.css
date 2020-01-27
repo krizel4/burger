@@ -16,15 +16,17 @@ h3 {
   color: #333333;
 }
 
-.lonely {
+.lonely-card {
   background-color: #87c3df;
   padding: 25px;
+  border-radius: 10px;
 }
 
-.devoured {
+.devoured-card {
   background-color: #59879c;
   color: #ffffff;
   padding: 25px;
+  border-radius: 10px;
 }
 
 .create-update-form {
