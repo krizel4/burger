@@ -1,39 +1,48 @@
-ul, li {
-list-style-type: none;
-}
-
-li {
-padding: 5px;
-margin: 5px;
-background: #aaa7a2;
+ul {
+  list-style-type: none;
 }
 
 h1, h2 {
-font-family: 'Fredoka One', cursive;
-color: #333333;
+  font-family: 'Fredoka One', cursive;
+  color: #333333;
 }
 
-h3, p {
-font-family: 'Muli', sans-serif;
-color: #333333;
+h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
 }
 
-.label {
-font-weight: bold;
+.lonely {
+  background-color: #87c3df;
+  padding: 25px;
+}
+
+.devoured {
+  background-color: #59879c;
+  color: #ffffff;
+  padding: 25px;
 }
 
 .create-update-form {
-padding: 5px;
-margin: 5px;
-background: rgb(209, 105, 7);
+  padding: 5px;
+  margin: 5px;
+  background: #d16907;
 }
 
 .form-group {
-margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .img-center {
-display: block;
-margin-left: auto;
-margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Make cards the same height */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
 }
