@@ -1,15 +1,21 @@
+ul, li {
+list-style-type: none;
+}
+
 li {
 padding: 5px;
 margin: 5px;
-background: #faebd7;
+background: #aaa7a2;
 }
 
 h1, h2 {
 font-family: 'Fredoka One', cursive;
+color: #333333;
 }
 
 h3, p {
-  font-family: 'Muli', sans-serif;
+font-family: 'Muli', sans-serif;
+color: #333333;
 }
 
 .label {
