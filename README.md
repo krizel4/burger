@@ -19,3 +19,6 @@ Simply devour any burgers that remain, or you can add your own burger. After you
 
 ## Other Notes
 This was made for the UCLA Coding Bootcamp 2020.
+
+## Known Issues
+App is able to take in new burgers and add them to the database, however they are not dynamically printing on the page.
