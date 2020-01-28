@@ -3,13 +3,14 @@ $(function () {
   // devour burger
   $("#devouredBurger").on("click", function () {
     var id = $(this).data("id");
-    let burger = {
-      devoured: 1
+    let eatBurger = {
+      devoured: true
     }
+    console.log(eatBurger);
 
     $.ajax("/api/burgers/" + id, {
       type: "PUT",
-      data: burger
+      data: eatBurger
     }).then(
       function () {
         console.log("nom nom nom");
