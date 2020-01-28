@@ -1,5 +1,7 @@
 // Initialize the connection to MySQL
 var mysql = require('mysql');
+
+// I was working with 'const' and for some reason I kept receiving errors. No idea why. But changing this to var for some reason worked.
 var connection;
 
 if (process.env.JAWSDB_URL) {

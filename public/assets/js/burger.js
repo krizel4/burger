@@ -1,5 +1,6 @@
 $(function () {
 
+// Switched the order of operations to help with functionality.
   $("#moreBurger").on("submit", function (event) {
     event.preventDefault();
 

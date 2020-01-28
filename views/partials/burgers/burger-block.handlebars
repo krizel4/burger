@@ -2,6 +2,8 @@
     {{burger_name}}
     {{#if devoured}}
     {{else}}
+
+    {{!-- Added 'this' object to data id. --}}
     <button class="btn-small yellow darken-2" data-id="{{this.id}}" id="devouredBurger">Devour!</button>
     {{/if}}
 </li>

@@ -1,6 +1,7 @@
 // Import MySQL connection.
 var connection = require("../config/connection.js");
 
+// This following code was copied from the Cats App orm.js
 // Helper function for SQL syntax.
 function printQuestionMarks(num) {
   var arr = [];
@@ -32,9 +33,11 @@ function objToSql(ob) {
   return arr.toString();
 }
 
+// Changed according to HW ReadMe instructions. Also updated this eventually to match the model file and controller file. A big issue with these files was that they weren't watching objects. They had to match.
 // Object for all our SQL statement functions.
 var orm = {
   selectAll: function (tableInput, cb) {
+    // Cleaned code to have template literals. Easier to read.
     var queryString = `SELECT * FROM ${tableInput};`;
 
     connection.query(queryString, function (err, result) {
