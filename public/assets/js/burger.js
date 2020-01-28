@@ -1,7 +1,7 @@
 $(function () {
 
   // devour burger
-  $(".devoured-burger").on("click", function () {
+  $("#devouredBurger").on("click", function () {
     var id = $(this).data("id");
     let burger = {
       devoured: 1
@@ -18,14 +18,14 @@ $(function () {
     );
   });
 
-  $(".create-form").on("submit", function (event) {
+  $("#moreBurger").on("submit", function (event) {
     event.preventDefault();
 
-    var newBurger = {
+    let newBurger = {
       burger_name: $("#burger").val().trim(),
       devoured: false
     };
-    // console.log(newBurger)
+    console.log(newBurger)
 
     $.ajax("/api/burgers", {
       type: "POST",
