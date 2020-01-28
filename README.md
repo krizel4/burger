@@ -1,4 +1,4 @@
-### Eat-Da-Burger
+# Eat-Da-Burger
 
 For this project, we were tasked to create a log of uneaten and eaten burgers using MySQL, Node, Express, Handlebars and ORM. This project follows an MVC design patter using Node and MySQL to query and route data into the app. Handlebars is used to generate the HTML.
 
@@ -6,6 +6,9 @@ For this project, we were tasked to create a log of uneaten and eaten burgers us
 
 To run the app, you just need to visit the deployed page.
 Simply devour any burgers that remain, or you can add your own burger. After you've hit "devour", it'll make its way to the devour list.
+
+## App Preview
+![Eat-Da-Burger Preview](./public/assets/img/EAT-DA-BURGER-DISPLAY.PNG)
 
 ## Languages
 * HTML
