@@ -8,7 +8,7 @@ To run the app, you just need to visit the deployed page.
 Simply devour any burgers that remain, or you can add your own burger. After you've hit "devour", it'll make its way to the devour list.
 
 ## App Preview
-![Eat-Da-Burger Preview](./public/assets/img/EAT-DA-BURGER-DISPLAY.PNG)
+![Eat-Da-Burger Preview](./public/assets/img/EAT-DA-BURGER-DISPLAY.png)
 
 ## Languages
 * HTML
