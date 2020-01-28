@@ -1,4 +1,4 @@
-const orm = require("../config/orm.js");
+var orm = require("../config/orm.js");
 
 // call all ORM functions using specific input for the ORM
 var burger = {
