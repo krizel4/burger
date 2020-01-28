@@ -4,7 +4,8 @@ For this project, we were tasked to create a log of uneaten and eaten burgers us
 
 ## How to Run the App
 
-To run the app, you just need to visit the deployed page.
+To run the app, you just need to visit the deployed page [here](https://quiet-retreat-45652.herokuapp.com/).
+
 Simply devour any burgers that remain, or you can add your own burger. After you've hit "devour", it'll make its way to the devour list.
 
 ## App Preview
